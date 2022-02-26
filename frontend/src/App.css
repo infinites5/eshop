@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+*::-webkit-scrollbar {
+  width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: rgb(44, 43, 43);
+  outline: none;
+  border-radius: 10px;
+  height: 50px;
+}
+
+*::-moz-scrollbar {
+  width: 10px;
+}
+
+*::-moz-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+*::-moz-scrollbar-thumb {
+  background-color: rgb(44, 43, 43);
+  outline: none;
+  border-radius: 10px;
+  height: 50px;
+}
+
+h1 {
+  font-family: "Rajdhani", sans-serif;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Lato", sans-serif;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
